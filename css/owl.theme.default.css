@@ -22,9 +22,9 @@
     border-radius: 50%; }
     .owl-theme .owl-nav [class*='owl-']:hover {
       background: transparent;
-      border: 2px solid #ffd900;
+      border: 2px solid #d5b48b;
       text-decoration: none;
-      color:#ffd900; }
+      color:#d5b48b; }
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
     cursor: default; }
@@ -45,7 +45,7 @@
       margin: 5px 4px;
       background: transparent;
       border: 2px solid #bebbb8;
-      display: block;
+      display: none;
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
       }

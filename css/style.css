@@ -216,7 +216,7 @@ button.btn { height: 50px; margin-right: -1px; }
 /*--------------------------------
  4.8 Image Hover Effect 
 ----------------------------------*/
-img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border: none; line-height: normal; vertical-align: middle; }
+img { width: auto; height: auto; margin: 0; padding: 0; border: none; line-height: normal; vertical-align: middle; }
 .imghover { display: block; position: relative; max-width: 100%; }
 .imghover::before, .imghover::after { display: block; position: absolute; content: ""; text-align: center; opacity: 0; }
 .imghover::before { top: 0; right: 0; bottom: 0; left: 0; }
@@ -461,20 +461,18 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 /*--------------------------
  9.5  Testimonial
 ---------------------------*/
-.slide-box { background-color: rgba(238, 238, 238, 0.8); height:200px; margin-bottom:20px;}
-.con-title { width: 100%; height: 30px; text-align: left; padding: 11px 0 0 15px; font-size: 25px; color:#000; }
+.slide-box { background-color: rgba(238, 238, 238, 0.8); height:190px; margin-bottom:20px;}
+.con-title { width: 100%; height: 30px; text-align: left; padding: 15px 0 0 20px; font-size: 22px; color:#000; }
 .con-slide {background-color: #ffffff; width: 90%; height: 65%; position: relative; left: 5%; top: 12%;}
-.con-slide img {width: 100%; height: 131px;}
+.con-slide img {width: 100%; height: 125px;}
 .cs-center {margin-bottom: 50px;}
-.up-content { position: absolute; bottom:3%; left:50%; transform: translate(-50%); z-index: 999;}
+.up-content { position: absolute; bottom:-3%; left:50%; transform: translate(-50%); z-index: 999;}
 
 
 /*--------------------------
  9.6  team
  ----------------------------*/
  
-
-
 
 /*-------------------------
  9.8 Contact us
@@ -633,7 +631,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     #navigation ul li:nth-child(2) li, #navigation ul li:nth-child(3) li, #navigation ul li:nth-child(4) li, #navigation ul li:nth-child(5) li  {display: inline-block;}
     .page-nav {display:none;}
     .up-content { position: relative;}
-    .cs-content {background: #eee;}
+    .cs-content {background: rgba(238, 238, 238, 0.8);}
     .owl-nav {display:none;}
 }
 
@@ -641,7 +639,8 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 @media only screen and (max-width:480px) {
     .page-nav {display:none;}
     .up-content { position: relative;}
-    .cs-content {background: #eee;}
+    .cs-content {background: rgba(238, 238, 238, 0.8);}
+    .slide-box {background-color: rgba(238, 238, 238, 0.8);}
  }
 
 /* Custom, iPhone Retina */
