@@ -36,23 +36,22 @@ $("document").ready(function(){
   const $m_list = $(".m-nav > ul > li");
   $m_list.click(function(){
     let i = $(this).index();
-    console.log($m_list.eq(i).find("ul").css("height"), $m_list.eq(i).find("ul").css("height", ($(this).find("ul li a").length*46)+"px"))
+    console.log($m_list.eq(i).find("ul").css("height"), $m_list.eq(i).find("ul").css("height", ($(this).find("ul li").length*46)+"px"))
     if(i == 0 || i == 5){
       if($m_list.eq(i).find("ul").css("height") > "0px"){
         $m_list.find("ul").css("height", "")
       }else{
         $m_list.find("ul").css("height", "")
-        $m_list.eq(i).find("ul").css("height", ($m_list.eq(i).find("ul li a").length*46)+"px")
+        $m_list.eq(i).find("ul").css("height", ($m_list.eq(i).find("ul li").length*46)+"px")
       }
     }
   })
   $list.mouseover(function(){
     let i = $(this).index();
-    if(i == 0 || i == 5){
-      $list.eq(i).find("ul").css("height", ($(this).find("ul li a").length*50)+"px")
-
+    if(i == 0 || i==4 || i == 5){
+      $list.eq(i).find("ul").css("height", ($(this).find("ul li").length*50)+"px")
     }
-    console.log($(this).find("ul li a").length)
+    console.log($(this).find("ul li").length)
   }).mouseout(function(){
     $list.find("ul").css("height", "")
   })
