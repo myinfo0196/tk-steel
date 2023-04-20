@@ -216,7 +216,7 @@ button.btn { height: 50px; margin-right: -1px; }
 /*--------------------------------
  4.8 Image Hover Effect 
 ----------------------------------*/
-img { width: auto; height: auto; margin: 0; padding: 0; border: none; line-height: normal; vertical-align: middle; }
+img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border: none; line-height: normal; vertical-align: middle; }
 .imghover { display: block; position: relative; max-width: 100%; }
 .imghover::before, .imghover::after { display: block; position: absolute; content: ""; text-align: center; opacity: 0; }
 .imghover::before { top: 0; right: 0; bottom: 0; left: 0; }
@@ -420,7 +420,7 @@ img { width: auto; height: auto; margin: 0; padding: 0; border: none; line-heigh
 -------------------------------------*/
 
 .subpage-title { text-align: left; font-size: 3em; margin-top: 30px; color: #000;}
-.subpage-cont {margin-bottom: 40px;}
+.subpage-cont {margin-bottom: 60px;}
 
 
 
