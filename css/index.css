@@ -9,6 +9,7 @@ header .nav{float: right; width: 70%; position: relative; top:10px;}
 header .nav > ul{overflow: hidden;}
 header .nav > ul > li{float: left; width: 16.6667%; line-height: 50px; text-align: center;}
 header .nav ul li ul{ width: 25%; text-align: left;  position: absolute; background-color: #e7e8e9;  z-index: 1; transition: 0.5s; height: 0; overflow: hidden;}
+header .nav ul li:nth-child(2) ul {width: 30%;}
 header .nav ul li ul li a {padding-left:8%; display: inline-block; width: 100%;}
 header .nav ul li ul li a:hover{background:#555;  color:#fff; display: inline-block; }
 /* 헤더 */
