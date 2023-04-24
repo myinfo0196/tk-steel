@@ -32,15 +32,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d023bfe1103e3123aedf184fb8821b33&libraries=services,clusterer,drawing"></script>
     
 </head>
 
 <body>
 
-
-  <header data-include="/include/header.html"></header>
-
-
+<header data-include="/include/header.html"></header>
 
 <!-- page-header-start -->
 <div class="page-header">
@@ -81,11 +79,11 @@
       <!-- practice-content-start -->
       <div class="col-lg-12 col-md-12 col-sm-12 col-lg-12 text-center">
         <div class="subpage-title">오시는길</div><hr>
-        <div class="subpage-content"></div>
-
-</div>
-         </div>
-      <!-- practice-content-close --> 
+        <div class="subpage-content">	
+          <div id="map" style="height:400px;"></div>
+        </div>
+      </div>
+    <!-- practice-content-close --> 
     </div>
   </div>
 </div>
@@ -108,5 +106,28 @@
 <script src="/js/include.js" defer></script>
 <script src="/js/index.js"></script>
 <script src=" https://cdn.jsdelivr.net/npm/swiper@9.1.1/swiper-bundle.min.js"></script>
+
+<script>
+  var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+      mapOption = { 
+          center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+          level: 3 // 지도의 확대 레벨
+      };
+
+  var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+  // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
+  var mapTypeControl = new kakao.maps.MapTypeControl();
+
+  // 지도에 컨트롤을 추가해야 지도위에 표시됩니다
+  // kakao.maps.ControlPosition은 컨트롤이 표시될 위치를 정의하는데 TOPRIGHT는 오른쪽 위를 의미합니다
+  map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+
+  // 지도 확대 축소를 제어할 수 있는  줌 컨트롤을 생성합니다
+  var zoomControl = new kakao.maps.ZoomControl();
+  map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+</script>
 </body>
 </html>
+
+
