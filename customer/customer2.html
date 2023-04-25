@@ -81,14 +81,62 @@
       <!-- practice-content-start -->
       <div class="col-lg-12 col-md-12 col-sm-12 col-lg-12 text-center">
         <div class="subpage-title">온라인문의</div><hr>
-        <div class="subpage-content"></div>
+        <div class="subpage-cont">
+            <!-- CONTACT FORM -->
+            <form class="gform" method="post" data-email="wodms9408@naver.com" target="iframe1"
+                  action="https://script.google.com/macros/s/AKfycbwYvv8mI59vr52H-lvE4ht5A4vwqB2frPWKkCako76g3Yj7l2T-hXfsqAoRWYXE9pGi/exec">
 
-</div>
-         </div>
+                  
+                          <table border="0" cellspacing="0" cellpadding="0" class="tb_form">
+                            <colgroup>
+                              <col width="20%" />
+                              <col width="80%" />
+                            </colgroup>
+                            <tr>
+                              <th class="first">작성자</th>
+                              <td class="first"><input name="postername" type="text" class="f_input" size="30" maxlength="20" value="" /></td>
+                            </tr>
+                            <tr>
+                              <th>비밀번호</th>
+                              <td><input name="posterpwd" type="password" class="f_input" size="25" maxlength="16" /></td>
+                            </tr>
+                       <tr>
+                              <th>연락처</th>
+                              <td>
+                                <input name="posterphone" type="hidden">
+                                <select class="f_select posterphone"  value="" /><option value=''></option><option value='010'>010</option><option value='011'>011</option><option value='016'>016</option><option value='017'>017</option><option value='018'>018</option><option value='019'>019</option><option value='070'>070</option><option value='0130'>0130</option><option value='0303'>0303</option><option value='0502'>0502</option><option value='0504'>0504</option><option value='0505'>0505</option><option value='0506'>0506</option></select> - 
+                            <input type="text" class="f_input posterphone" size="6" maxlength="4" value="" /> - 
+                            <input type="text" class="f_input posterphone" size="6" maxlength="4" value="" />
+                          </td>
+                            </tr>
+                            <tr>
+                              <th>이메일</th>
+                              <td><input name="posteremail" type="text" class="f_input" id="email" size="60" maxlength="50" value="" /></td>
+                            </tr>
+                            <tr>
+                              <th>제목</th>
+                              <td><input name="subject" type="text" class="f_input" id="memname" size="75" maxlength="80" value="" /></td>
+                            </tr>
+                            <tr>
+                              <th>내용</th>
+                              <td>
+                                <textarea name="content" cols="25" rows="10" class="f_textarea" style="width:97%; overflow:auto;"></textarea>
+                                <p class="pdT4" style="display:none;"><input name="locked" type="checkbox" value="1" checked="checked"" /> <span>비밀글로 설정</span></p>            </td>
+                            </tr>
+                                    </table>
+                        
+                        
+              
+                    <button class="button-success pure-button button-xlarge" onclick="check()">
+                      <i class="fa fa-paper-plane"></i>&nbsp;Send
+                    </button>
+                  </div>
+            </form>
+            <iframe id="iframe1" name="iframe1" style="display:none"></iframe>
+        </div>
       <!-- practice-content-close --> 
+      </div>
     </div>
-  </div>
-</div>
 <!-- practice-area-close --> 
 
 
@@ -108,5 +156,20 @@
 <script src="/js/include.js" defer></script>
 <script src="/js/index.js"></script>
 <script src=" https://cdn.jsdelivr.net/npm/swiper@9.1.1/swiper-bundle.min.js"></script>
+<script>
+  function check() {
+    document.getElementsById("form태그의 id").action = "여러분의 구글 스프레드 시트 url";
+    var email = document.getElementById("email").value;
+    if (email != "") {
+        var exptext = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
+        if (exptext.test(email) == false) {
+            //이메일 형식이 알파벳+숫자@알파벳+숫자.알파벳+숫자 형식이 아닐경우			
+            alert("입력한 메일형식이 올바르지 않습니다.");
+            document.formtag.email.focus();
+            document.getElementById("form태그의 id").action = " ";
+        }
+    }
+}
+</script>
 </body>
 </html>
