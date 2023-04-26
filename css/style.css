@@ -568,11 +568,11 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
         width: 100%;
         text-align: center;
         z-index: 999;
-        transform: translate(-50%, -180%);
+        transform: translate(-50%, -150%);
         height:auto;
  }
-    .slider-captions .small-title {margin-bottom: 5px; font-size:20px;}
-    .slider-title{font-size: 30px;}
+    .slider-captions .small-title {margin-bottom: 5px; font-size:15px;}
+    .slider-title{font-size: 15px;}
     .slider-text {width: 70%; display: none;}
     .slider-captions {transform: translate(-50%, -230%);}
     .form-title {float: left; width: 20%; }
