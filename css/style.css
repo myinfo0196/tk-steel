@@ -404,7 +404,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .con-slide {background-color: #ffffff; width: 90%; height: 65%; position: relative; left: 5%; top: 12%;}
 .con-slide img {width: 100%; height: 125px;}
 .cs-center {margin-bottom: 50px;}
-.up-content { position: absolute; bottom:-3%; left:50%; transform: translate(-50%); z-index: 999;}
+.up-content { position: absolute; bottom:-4%; left:50%; transform: translate(-50%); z-index: 999;}
 
 
 /*--------------------------
