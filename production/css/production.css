@@ -19,12 +19,14 @@
     display: none;
   }  
   
-  .tab-area label {
-    margin-right: 25px;
+  .tab-area label {    
+    margin-right: 3%;
     background: #49b9d3;
-    padding: 5px 15px;
+    padding: 15px;
     border-radius: 5px;
     color: white;
+    margin-left: 3%;
+    width: 15%;
   }
     
   .tab-content img{margin:auto;}
@@ -61,3 +63,16 @@
   }
   
   
+@media only screen and (max-width:768px) {
+  .tab-area label {    
+  width: 25%; 
+  margin-left:2%;
+  margin-right:2%;
+  }
+}
+@media only screen and (max-width:768px) {
+  .tab-area label {    
+    font-size: 13px;
+    width:28.5%;
+  }
+}
