@@ -572,9 +572,9 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
         height:auto;
  }
     .slider-captions .small-title {margin-bottom: 5px; font-size:15px;}
-    .slider-title{font-size: 15px;}
+    .slider-title{font-size: 25px;}
     .slider-text {width: 70%; display: none;}
-    .slider-captions {transform: translate(-50%, -230%);}
+    .slider-captions {transform: translate(-50%, -240%);}
     .form-title {float: left; width: 20%; }
     .form-group:nth-child(2) .form-title { width: 20%;}
     #subject, #msg {
@@ -588,7 +588,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     .up-content { position: relative;}
     .cs-content {background: rgba(238, 238, 238, 0.8);}
     .slide-box {background-color: rgba(238, 238, 238, 0.8);}
-    .slider-captions {transform: translate(-50%, -160%);}
+    .slider-captions {transform: translate(-50%, -167%);}
 }
 
 /* Custom, iPhone Retina */
