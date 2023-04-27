@@ -3,7 +3,8 @@
 
 .page-header { text-align: center; background: url(/customer/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
 .map_cont { margin-top: 30px; background:#eeeeee; padding: 10px 0;}
-.map_cont > li {}
+.map_cont li {font-size:18px;}
+.map_cont li:nth-child(3){margin-top:10px;}
 
 .cs_title{text-align: left;margin-bottom: 30px; font-size: 1.2em;}
 .subpage-content{height:500px;}

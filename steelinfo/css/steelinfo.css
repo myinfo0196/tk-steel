@@ -3,3 +3,17 @@
 
 .page-header { text-align: center; background: url(/steelinfo/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
 hr {margin:0;}
+
+.subpage-cont {text-align:left; padding:25px;}
+
+.steelinfo-title {font-size: 40px; color:#000; font-weight: bold;}
+.steelinfo-sub {font-size: 25px;}
+.steelinfo-sub span {color:blue; font-weight: bold;}
+
+.info {margin-bottom: 30px; font-size:20px;}
+.steelinfo-subtitle {font-size:25px; font-weight: bold; color:blueviolet;}
+
+.table-title {margin-bottom:10px; font-size:25px; color:#000; font-weight: bold;}
+.backslash {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="0" x2="100%" y2="100%" stroke="#ccc" /></svg>');
+}

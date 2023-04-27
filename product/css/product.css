@@ -3,4 +3,9 @@
 
 .page-header { text-align: center; background: url(/product/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
 
-
+.part2 {clear:both;}
+.part2 li {font-size:20px;}
+.part2 > ul { margin: 25px 0 50px 0;}
+.part1-1, .part1-2 {width:44%; float: left; margin: 0 3%; }
+.part1 {overflow: hidden;}
+.part1 img {width:800px;}
