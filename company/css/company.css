@@ -14,9 +14,11 @@ p { margin-top: 5%; }
 .ceo-title li:nth-child(6){animation-delay:1.0s;}
 .ceo-title{font-size:1.3vw; text-align: left; float: left; margin:6% 0 6% 10%; color:rgba(255,255,255,0.8); position:relative;}
 .ceo-title b {font-size:2vw; color:#fff;}
-.subpage-content {width: 100%; overflow: hidden; }
-.subpage-content img {position:absolute; left:1%; width:98%;}
-.ceo-content img {right: 0; bottom:5%; width: 30%; position: absolute;}
+.subpage-content {width: 100%; overflow: hidden; position: relative; }
+.subpage-content img {position:absolute; width:100%; left: 0;}
+.ceo-content img {right: 0; bottom:5%; width: 30%; position: absolute;animation-delay:1.0s;}
+
+.ceo-content {animation-delay:0.5s;}
 
 /* Extra Small Devices, Phones */
 
@@ -133,3 +135,28 @@ right connector from last child*/
 
 /*Thats all. I hope you enjoyed it.
 Thanks :)*/
+
+
+
+/* company2 - 연혁 */
+
+.history-block:nth-of-type(2n+1) .history-content { text-align: right;}
+.history-block:nth-of-type(2n) .history-content { text-align: left; left:54%; position: relative;}
+.history-block:nth-child(1) { animation-delay: 0.2s;}
+.history-block:nth-child(2) { animation-delay: 0.4s;}
+.history-block:nth-child(3) { animation-delay: 0.6s;}
+.history-block:nth-child(4) { animation-delay: 0.8s;}
+.history-block:nth-child(5) { animation-delay: 1.0s;}
+.history-block:nth-child(6) { animation-delay: 1.2s;}
+.history-block:nth-child(7) { animation-delay: 1.4s;}
+.history-block:nth-child(8) { animation-delay: 1.6s;}
+.history-block:nth-child(9) { animation-delay: 1.8s;}
+.history-block:nth-child(10) { animation-delay: 2.0s;}
+
+.history-content li:nth-child(1) {font-weight: bold; font-size: 1.5em;}
+.history-content li {line-height:2; font-size: 1.45rem;}
+.history-content { width: 46%;}
+.history-circle { background: #fff; border-radius: 50%; border: 3px solid #4d94c6; text-align: center; width: 10px; height: 10px;
+				  position: absolute; left: 50%; margin-left: -4px;}
+
+.history::before {width: 1px; position: absolute; height: 100%; background: #ccc; left: 50%; content: "";}

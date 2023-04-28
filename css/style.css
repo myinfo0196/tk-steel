@@ -46,10 +46,8 @@ hr { border-bottom: 1px solid #e1e0dd; margin-bottom: 40px; }
 /*----------------------- 
     animation
 -------------------------*/
-.animated.delay-02s {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-}
+.slider-title {animation-delay:0.5s;}
+.slider-text {animation-delay:1.0s;}
 
 /*----------------------- 
     2 Form Elements:
@@ -199,7 +197,7 @@ button.btn:hover {background-color: #0b8191; color:#fff;}
 .section-title { text-align: center; margin-bottom: 50px; }
 .section-title h1 {font-size: 25px;}
 .title { color: #333333; }
-.small-title { margin-bottom: 20px; font-weight: 700; font-size: 1em; text-transform: uppercase; letter-spacing: .75px; display: inline-block; }
+.small-title { margin-bottom: 20px; font-size: 1em; text-transform: uppercase; letter-spacing: .75px; display: inline-block; }
 .text-white { color: #fff; }
 .primary-sidebar { }
 .secondary-sidebar { }
@@ -366,7 +364,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 -------------------------------------*/
 
 .subpage-title { text-align: left; font-size: 3em; margin-top: 30px; color: #000;}
-.subpage-cont {margin-bottom: 60px;}
+.subpage-cont {margin-bottom: 60px; position: relative;}
 
 
 

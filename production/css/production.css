@@ -30,7 +30,7 @@
   }
     
   .tab-content img{margin:auto;}
-
+  
 
   /* label에 마우스 올렸을 때 */
   .tab-area label:hover {
@@ -42,9 +42,13 @@
   .tab-area input:checked + label {
     /* 해당 메뉴가 선택된 상태인지 아닌지를 사용자에게 알려줄 수 있음 */
     font-weight: bold;
-    background: #2da0bb;
+    background-color: #1f90a9;
+    transition: 0.5s;
   }
-    
+
+
+
+
   
   /* 3. tab 내용 부분 디자인 */
   .tab-content {

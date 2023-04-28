@@ -8,10 +8,10 @@ header .logo img{width: 80%;}
 header .nav{float: right; width: 70%; position: relative; top:10px;}
 header .nav > ul{overflow: hidden;}
 header .nav > ul > li{float: left; width: 16.6667%; line-height: 50px; text-align: center;}
-header .nav ul li ul{ width: 25%; text-align: left;  position: absolute; background-color: #e7e8e9;  z-index: 1; transition: 0.5s; height: 0; overflow: hidden;}
+header .nav ul li ul{ width: 25%; text-align: left;  position: absolute; background-color: #0a539cd8; z-index: 1; transition: 0.5s; height: 0; overflow: hidden;}
 header .nav ul li:nth-child(2) ul {width: 30%;}
-header .nav ul li ul li a {padding-left:8%; display: inline-block; width: 100%; font-size:15px;}
-header .nav ul li ul li a:hover{background:#555;  color:#fff; display: inline-block; }
+header .nav ul li ul li a {padding-left:8%; display: inline-block; width: 100%; font-size:15px; color:#fff;}
+header .nav ul li ul li a:hover{background:#292687ee;  color:#fff; display: inline-block; }
 
 /* 헤더 */
 /* 모바일 햄버거 */
@@ -23,11 +23,11 @@ header .nav ul li ul li a:hover{background:#555;  color:#fff; display: inline-bl
 .hamburger.on .line:nth-child(3){transform: rotate(-45deg) translateY(-13px);}
 /* 모바일 햄버거 */
 /* 모바일 네비 */
-.m-nav{position: fixed; width: 300px; height: 100%; top: 0; background-color: #eee; z-index: 4; right: -300px; padding: 50px; padding-top: 100px; box-sizing: border-box; padding-left: 30px; transition: 0.5s;}
+.m-nav{position: fixed; width: 300px; height: 100%; top: 0; background-color: #0a539cd8; z-index: 4; right: -300px; padding: 50px; padding-top: 100px; box-sizing: border-box; padding-left: 30px; transition: 0.5s;}
 .m-nav.on{right: 0;}
-.m-nav ul li{border-bottom: 1px solid #e1e1e1; position: relative;}
+.m-nav ul li{border-bottom: 1px solid #e1e1e1d8; position: relative;}
 .m-nav ul li ul{height: 0; overflow: hidden; transition: 0.5s;}
-.m-nav ul li a{padding: 15px 0 5px; display: inline-block; width: 100%;}
+.m-nav ul li a{padding: 15px 0 5px; display: inline-block; width: 100%; color:#fff;}
 .m-nav ul li ul li{padding-left: 20px;}
 .m-nav ul li ul li:last-child{border-bottom: 0;}
 
