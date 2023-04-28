@@ -4,15 +4,32 @@ a {text-decoration: none;}
 
 .page-header { text-align: center; background: url(/company/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
 .ceo-content {text-align: left; margin-top:30px; margin-left: 20px; font-size: 1.2em; color: #222;}
-p { margin-top: 30px; }
+p { margin-top: 5%; }
 .logo_ci { width: 350px; padding: 30px 0; }
 
+.ceo-title li:nth-child(2){animation-delay:0.2s;}
+.ceo-title li:nth-child(3){animation-delay:0.4s;}
+.ceo-title li:nth-child(4){animation-delay:0.6s;}
+.ceo-title li:nth-child(5){animation-delay:0.8s;}
+.ceo-title li:nth-child(6){animation-delay:1.0s;}
+.ceo-title{font-size:1.3vw; text-align: left; float: left; margin:6% 0 6% 10%; color:rgba(255,255,255,0.8); position:relative;}
+.ceo-title b {font-size:2vw; color:#fff;}
+.subpage-content {width: 100%; overflow: hidden; }
+.subpage-content img {position:absolute; left:1%; width:98%;}
+.ceo-content img {right: 0; bottom:5%; width: 30%; position: absolute;}
+
 /* Extra Small Devices, Phones */
-@media only screen and (max-width:480px) {
-    .ceo-content {font-size: 1em; margin-left: 5px; }
+
+@media only screen and (max-width:1600px) {
+	.ceo-title{font-size: 1.6vw;}
+    .ceo-content {margin-left: 5px; }
  }
 
-
+@media only screen and (max-width:1200px) {
+	.ceo-title{font-size: 2vw;}
+    .ceo-content {margin-left: 5px; }
+	.ceo-content img {position: relative; width:70%;}
+ }
  /*Now the CSS*/
 * {margin: 0; padding: 0;}
 

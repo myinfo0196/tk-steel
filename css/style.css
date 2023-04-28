@@ -44,6 +44,14 @@ strong { color: #333; font-weight: 800; }
 hr { border-bottom: 1px solid #e1e0dd; margin-bottom: 40px; }
 
 /*----------------------- 
+    animation
+-------------------------*/
+.animated.delay-02s {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+/*----------------------- 
     2 Form Elements:
 -------------------------*/
 label { }

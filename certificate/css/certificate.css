@@ -1,6 +1,11 @@
 
 @charset "UTF-8";
 
+li{list-style: none;}
+
 .page-header { text-align: center; background: url(/certificate/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
 
-.cert {float: left; width: 40%; margin: 0 55px 70px 55px;}
+.cert {float: left; width: 40%; margin: 0 5% 8% 5%;}
+.cert img:hover{box-shadow: 2px 3px 15px rgba(0,0,0,0.5);}
+.subpage_cont{clear: both; overflow: hidden;}
+.cert-name {font-size: 22px; font-weight: bold; margin-top:10px; }

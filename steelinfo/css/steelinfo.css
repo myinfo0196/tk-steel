@@ -11,9 +11,39 @@ hr {margin:0;}
 .steelinfo-sub span {color:blue; font-weight: bold;}
 
 .info {margin-bottom: 30px; font-size:20px;}
+
 .steelinfo-subtitle {font-size:25px; font-weight: bold; color:blueviolet;}
 
-.table-title {margin-bottom:10px; font-size:25px; color:#000; font-weight: bold;}
+.table-title {margin-bottom:15px; font-size:25px; color:#000; font-weight: bold;}
+.table-subtitle{margin-bottom:10px;}
 .backslash {
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="0" x2="100%" y2="100%" stroke="#ccc" /></svg>');
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="0" x2="100%" y2="100%" stroke="lightgray" /></svg>');
+}
+
+/* table 두께공차 */
+
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0; width:80%; margin-left: 30px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+font-family:Arial, sans-serif;font-size:2vh;overflow:hidden;padding:1% 1%;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+font-family:Arial, sans-serif;font-size: 2vh;font-weight:normal;overflow:hidden;padding:1% 1%;word-break:normal;}
+.tg .tg-ezme{background-color:#efefef;border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-v0hj{background-color:#efefef;border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-abip{background-color:#f9f9f9;border-color:inherit;text-align:center;vertical-align:top}
+   
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width:700px) {
+.tg {width: 100%; margin:0;}
+.tg td{font-size:1vh;}
+.tg th{font-size:1vh;}
+    
+.steelinfo-title {font-size: 25px;}
+.steelinfo-sub {font-size: 18px;}
+
+.info {font-size:12px;}
+.steelinfo-subtitle {font-size:20px; }
+
 }

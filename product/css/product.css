@@ -9,3 +9,9 @@
 .part1-1, .part1-2 {width:44%; float: left; margin: 0 3%; }
 .part1 {overflow: hidden;}
 .part1 img {width:800px;}
+
+
+@media only screen and (max-width:700px) {
+    
+.part2 li {font-size:12px; width:85%; margin:0 auto;}
+}
