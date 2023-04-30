@@ -5,7 +5,14 @@ li{list-style: none;}
 
 .page-header { text-align: center; background: url(/certificate/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
 
-.cert {float: left; width: 40%; margin: 0 5% 8% 5%;}
-.cert img:hover{box-shadow: 2px 3px 15px rgba(0,0,0,0.5);}
-.subpage_cont{clear: both; overflow: hidden;}
-.cert-name {font-size: 22px; font-weight: bold; margin-top:10px; }
+.cert {flex-basis: 23.5%}
+.cert:hover {width: 40%; transition:0.5s;}
+.cert img:hover{box-shadow: 2px 3px 15px rgba(0,0,0,0.5); transition:0.5s;}
+.subpage-cont{display: flex; justify-content: space-between; flex-wrap: wrap;}
+.cert-name {font-size: 1vw; font-weight: bold; margin:10px 0; }
+@media screen and (min-width: 641px) and (max-width: 1024px){
+    .cert {flex-basis: 49%}
+    .cert-name {font-size:2vw;}}
+@media screen and (max-width: 640px){
+    .cert {flex-basis: 99%}
+    .cert-name {font-size:4vw;}}

@@ -25,6 +25,10 @@
 <link href="./css/steelinfo.css" rel="stylesheet">
 <link rel="stylesheet" href="/css/common.css">
 <link rel="stylesheet" href="/css/index.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+</script>
 <link rel="stylesheet" href="/css/animate.css">
 <script src="/js/wow.min.js"></script>
 <script>
@@ -79,13 +83,14 @@
       <div class="col-lg-12 col-md-12 col-sm-12 col-lg-12 text-center">
         <div class="subpage-title">철강상식</div><hr>
         <div class="subpage-cont">
-          <div class="info wow fadeInUp">
-            <ul>
-              <li class="steelinfo-title">철강(鐵鋼)이란?</li>
+          <div class="info info-title">
+            <ul class="wow fadeInUp">
+              <li class="steelinfo-title">철강 <b>鐵鋼</b></li>
               <li class="steelinfo-sub"><span>주철</span>과 <span>강철</span>을 합쳐서 부르는 말로 철과 강은 서로 다른 소재입니다.</li>
             </ul>
+            <img src="./images/steel-1.jpg" alt="info1" class="wow fadeInRight " data-wow-delay="0.5s">
           </div>  
-          <div class="info wow fadeInUp">
+          <div class="info subinfo" data-aos="flip-down" data-aos-duration="2000" data-aos-delay="100">
             <ul>
               <li class="steelinfo-subtitle"><i class="fa-solid fa-circle-right"></i> 철(鐵)</li>
               <li>액체 상태로 용광로에서 갓 뽑아낸 쇳물을 선철이라 합니다.</li>
@@ -93,7 +98,7 @@
               <li><b>선철이 주조 작업에 사용 될 때 이를 주철이라고 부릅니다.</b></li>
             </ul>
           </div>
-          <div class="info wow fadeInUp">
+          <div class="info subinfo" data-aos="flip-down" data-aos-duration="2000" data-aos-delay="100">
             <ul>
               <li class="steelinfo-subtitle"><i class="fa-solid fa-circle-right"></i> 강(鋼)</li>
               <li>순수한 철에 일부 불순물을 첨가하여 단단하기, 무르기 등의 성질을 조정한 철입니다.</li>
@@ -366,7 +371,10 @@
 <script type="text/javascript" src="/js/owl.carousel.min.js"></script> 
 <script type="text/javascript" src="/js/slider.js"></script>
 <script src="/js/include.js" defer></script>
-<script src="/js/index.js"></script>
+<script>
+  AOS.init();
+
+</script>
 <script src=" https://cdn.jsdelivr.net/npm/swiper@9.1.1/swiper-bundle.min.js"></script>
 </body>
 </html>

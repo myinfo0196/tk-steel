@@ -1,18 +1,27 @@
 
 @charset "UTF-8";
 
+
 .page-header { text-align: center; background: url(/steelinfo/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
 hr {margin:0;}
 
-.subpage-cont {text-align:left; padding:25px;}
+.subpage-cont {text-align:left; padding:25px 0;}
 
-.steelinfo-title {font-size: 40px; color:#000; font-weight: bold;}
-.steelinfo-sub {font-size: 25px;}
-.steelinfo-sub span {color:blue; font-weight: bold;}
+.steelinfo-title {font-size: 40px; color:#333; font-weight: bold;}
+.steelinfo-title b {color:#555; font-size:30px;}
+.steelinfo-sub {font-size: 25px; width: 100%;}
+.steelinfo-sub span {font-weight: bold; color:#333;}
 
 .info {margin-bottom: 30px; font-size:20px;}
+.info-title {display:flex; align-items: center; background: #eee; padding:3%}
+.info-title:hover{background: #94a4b7; color:#fff; transition: 0.5s;}
+.info-title ul {width: 70%; }
+.info-title img {width: 30%; height: 30%; border-radius: 50%;
+    border: 10px solid #fff; box-shadow: 2px 3px 5px rgba(0,0,0,0.4);}
 
-.steelinfo-subtitle {font-size:25px; font-weight: bold; color:blueviolet;}
+
+.steelinfo-subtitle {font-size:25px; font-weight: bold; color:#576373;}
+.subinfo {background-color: #eee; padding: 3%;}
 
 .table-title {margin-bottom:15px; font-size:25px; color:#000; font-weight: bold;}
 .table-subtitle{margin-bottom:10px;}
@@ -39,9 +48,13 @@ font-family:Arial, sans-serif;font-size: 2vh;font-weight:normal;overflow:hidden;
 .tg {width: 100%; margin:0;}
 .tg td{font-size:1vh;}
 .tg th{font-size:1vh;}
+
+
+.info-title img {border: 5px solid #fff; box-shadow: 1px 2px 3px rgba(0,0,0,0.4);}
     
 .steelinfo-title {font-size: 25px;}
-.steelinfo-sub {font-size: 18px;}
+.steelinfo-title b{font-size: 20px;}
+.steelinfo-sub {font-size: 14px;}
 
 .info {font-size:12px;}
 .steelinfo-subtitle {font-size:20px; }
