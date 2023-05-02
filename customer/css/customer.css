@@ -5,9 +5,29 @@
 .map_cont { margin-top: 30px; background:#eeeeee; padding: 10px 0;}
 .map_cont li {font-size:18px;}
 .map_cont li:nth-child(3){margin-top:10px;}
+.manager-box { color:#333; text-align-last: left; border:1px solid #ccc; width: 30%; padding:40px 25px; margin-bottom:5%; font-size: 1em; line-height: 2;}
+.manager-box li:nth-child(1) {font-size: 2em; margin-bottom: 5%; font-weight: bold;}
+.manager-box li:nth-child(1):after {content:''; width:2%; height:1px; background: #333; position: absolute; left: 2.3%; top: 14%; }
+.manager-box:hover {background-color: #0a539cd8; color:#fff; transition: 0.3s;}
+.manager-box:hover li:nth-child(1):after {background: #fff; width:12%; transition: all 0.5s cubic-bezier(0.5, 0.5, 0.5, 1.5);}
 
 .cs_title{text-align: left;margin-bottom: 30px; font-size: 1.2em;}
-.subpage-content{height:500px;}
+.subpage-cont{margin-bottom: 50px; clear:both; overflow: hidden;}
+
+.form-group {overflow: hidden;}
+
 @media only screen and (max-width:768px) {
   .subpage-content{height:630px;}
+  .manager-box{width: 100%;}
+  .manager-box li:nth-child(1):after{
+    left: 4%;
+    top: 12.5%;
+  }
+  @media only screen and (max-width:480px) {
+    .manager-box li:nth-child(1):after{
+      left: 7%;
+      top: 12%;
+      width:4%;
+    }
+  }
 }

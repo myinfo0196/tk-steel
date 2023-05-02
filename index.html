@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" <head>
+<html lang="en">
+<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,6 +61,14 @@
             </div>
             <div class="item">
                 <img src="./images/slider-2.webp" class="img-responsive" alt="slide2">
+                <div class="slider-captions">
+                    <span class="small-title hidden-xs">언제나 고객사와 함께하는 기업</span>
+                    <h1 class="slider-title">태극철강 주식회사</h1>
+                    <p class="slider-text hidden-xs">자동차 고장력 소재를 개발에서 양산에 이르기까지 전문적으로 납품하는 업체입니다.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/slider-4.webp" class="img-responsive" alt="slide3">
                 <div class="slider-captions">
                     <span class="small-title hidden-xs">언제나 고객사와 함께하는 기업</span>
                     <h1 class="slider-title">태극철강 주식회사</h1>
@@ -130,7 +139,9 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="cs-center">
                                 <div class="cs-content">
-                                    <img src="/images/main-cs.webp" alt="main-cs">
+                                    <a href="./customer/customer1.html">
+                                        <img src="/images/main-cs.webp" alt="main-cs">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +241,6 @@
         $('.con-slide').slick({
             autoplay: true,
             autoplaySpeed: 4000,
-            
         });
     });
 </script>
