@@ -25,8 +25,11 @@ hr {margin:0;}
 
 .table-title {margin-bottom:15px; font-size:25px; color:#000; font-weight: bold;}
 .table-subtitle{margin-bottom:10px;}
-.backslash {
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="0" x2="100%" y2="100%" stroke="lightgray" /></svg>');
+.backslash-1 {
+    background: url("../images/backslash-1.png") no-repeat center; background-size:cover;
+}
+.backslash-2 {
+    background: url("../images/backslash-2.png") no-repeat center; background-size:cover;
 }
 
 /* table 두께공차 */
