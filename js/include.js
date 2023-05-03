@@ -27,9 +27,19 @@ function includeHTML(){
 
 // JavaScript Document
  
+// $("document").ready(function(){
+  
+//   $(".page-nav ul li").click(function(){
+//     let i = $(this).index();
+//     $(".page-nav ul li a").removeClass("active").eq(i).addClass("active")
+// })
 
+
+// })
 
 $("document").ready(function(){
+
+
   const $hamburger = $(".hamburger");
 
   const $list = $(".header .nav > ul > li");
@@ -37,7 +47,7 @@ $("document").ready(function(){
   $m_list.click(function(){
     let i = $(this).index();
     console.log($m_list.eq(i).find("ul").css("height"), $m_list.eq(i).find("ul").css("height", ($(this).find("ul li").length*50)+"px"))
-    if(i == 0 || i == 5 || i == 1 || i == 4 || i == 2){
+    if(i == 0 || i == 1 || i == 2 || i == 4 || i == 5){
       if($m_list.eq(i).find("ul").css("height") > "0px"){
         $m_list.find("ul").css("height", "")
       }else{

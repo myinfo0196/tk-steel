@@ -18,9 +18,9 @@ header .nav ul li ul li a:hover{background:#292687ee;  color:#fff; display: inli
 .hamburger{position: fixed; right: 20px; top: 20px; cursor: pointer; display: none; z-index: 50;}
 .hamburger .line{width: 30px; height: 4px; border-radius: 5px; 
   background-color: #000; margin-bottom: 5px; transition: 0.5s;}
-.hamburger.on .line:nth-child(1){transform: rotate(45deg) translateY(13px);}
+.hamburger.on .line:nth-child(1){transform: rotate(45deg) translateY(13px); background-color :#fff;}
 .hamburger.on .line:nth-child(2){opacity: 0;}
-.hamburger.on .line:nth-child(3){transform: rotate(-45deg) translateY(-13px);}
+.hamburger.on .line:nth-child(3){transform: rotate(-45deg) translateY(-13px); background-color :#fff;}
 /* 모바일 햄버거 */
 /* 모바일 네비 */
 .m-nav{position: fixed; width: 300px; height: 100%; top: 0; background-color: #0a539cd8; z-index: 4; right: -300px; padding: 50px; padding-top: 100px; box-sizing: border-box; padding-left: 30px; transition: 0.5s;}
@@ -28,7 +28,8 @@ header .nav ul li ul li a:hover{background:#292687ee;  color:#fff; display: inli
 .m-nav ul li{border-bottom: 1px solid #e1e1e1d8; position: relative;}
 .m-nav ul li ul{height: 0; overflow: hidden; transition: 0.5s;}
 .m-nav ul li a{padding: 15px 0 5px; display: inline-block; width: 100%; color:#fff;}
-.m-nav ul li ul li{padding-left: 20px;}
+.m-nav ul li ul li{padding-left: 20px; }
+.m-nav ul li ul li a {color:#e4fcff;}
 .m-nav ul li ul li:last-child{border-bottom: 0;}
 
 /* 모바일 네비 */
