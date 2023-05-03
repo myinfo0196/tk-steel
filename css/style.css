@@ -560,6 +560,8 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width:1200px) {
+    .tiny-footer ul li {width: 18%; padding: 5px; }
+    .tiny-footer ul li:nth-child(2) {width: 33%;}
 }
 
 /* Medium Devices, Desktops */
@@ -590,6 +592,11 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     .up-content { position: relative;}
     .cs-content {background: rgba(238, 238, 238, 0.8);}
     .slide-box {background-color: rgba(238, 238, 238, 0.8);}
+    .tiny-footer ul {width: 100%;}
+    .tiny-footer ul li {width: 22%; padding: 5px; }
+    .tiny-footer ul li:nth-child(2) {width: 34%;}
+    .tiny-footer .footerSiteMap {display:none;}
+    footer {padding: 10px 0;}
 }
 
 /* Custom, iPhone Retina */
