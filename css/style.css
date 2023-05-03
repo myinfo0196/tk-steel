@@ -348,8 +348,8 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .footer-social span a { font-size: 12px; padding: 10px 10px; background-color: #737070; border-radius: 50px; line-height: 1.2; width: 32px; height: 32px; text-align: center; margin-right: 5px; display: block; float: left; color: fff; }
 .footer-timing { font-size: 14px; font-weight: 700; }
 .footer-social span a:hover { background-color: #8e1e1a; color: #fff; }
-.footer-link { color: #ffe451; font-size: 16px; font-weight: 600; border-bottom: 1px solid #ffe451; padding-bottom: 2px; }
-.footer-link:hover { color: #f7da3d; border-bottom: 1px solid #f7da3d; }
+.footer-link { color: #fff9d7; font-size: 16px; font-weight: 600;  padding-bottom: 2px; }
+.footer-link:hover { color: #fff9da; border-bottom: 1px solid #f7da3d; }
 
 /*-------------- tiny footer ------------*/
 .tiny-footer { background-color: #063c72d8; padding-top: 10px; padding-bottom: 10px; font-size: 12px; text-align: center; }
@@ -360,7 +360,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .tiny-footer ul li {width: 10%; padding: 5px; }
 .tiny-footer ul li:nth-child(2) {width: 13%;}
 .tiny-footer ul li a {font-size: 13px; font-weight:600; color:#fff;}
-.tiny-footer ul li a:hover {color:#fffbd9;}
+.tiny-footer ul li a:hover {color:#ffee8f; border-bottom: 1px solid #ffee8f;}
 .tiny-footer .row {display:flex;}
 
 /*-----------------------------------
