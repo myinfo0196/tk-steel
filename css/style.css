@@ -294,20 +294,20 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     5.4 Page Header
 ----------------------------------------------*/
 .page-rgba { background-color: rgba(0,0,0,0.3);}
-.page-section { padding:70px 0;}
+.page-section { padding:40px 0 30px 0;}
 .page-description { }
 .page-description p { color: #FFF; }
-.page-title { font-size: 40px; color: #fff; font-weight: 700; padding-top: 20px;  }
-.page-text { font-size: 13px; font-weight: 700; color: #d6c4a0; border-bottom: #d6c4a0 2px solid; text-transform: uppercase; letter-spacing: 1.8px; }
+.page-title { font-size: 40px; color: #fff; font-weight: 700; padding-top: 15px;  }
+.page-text {font-size: 13px; font-weight: 700; color: #d6c4a0; border-bottom: #d6c4a0 2px solid; text-transform: uppercase; letter-spacing: 1.8px; }
 
-.page-nav{background: rgba(0,0,0,0.7); line-height:60px; }
+.page-nav{background: #0a539cd8; line-height:50px; }
 .page-nav ul { display: flex; justify-content:flex-start; height: 100%; width:100%; }
 .page-nav ul li { width: 15%; height: 100%; }
+.page-nav ul li:nth-child(1) {width: 23%; }
 .page-nav ul li a {display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; transition: all .3s ease;
-    color: #fff; width: 100%; }
-.page-nav ul li:nth-child(1) a{font-size: 22px; cursor:default; font-weight: bold; background-color: #eee; color:#000;}
+    color: #fff; width: 100%; font-size: 16px; }
+.page-nav ul li:nth-child(1) a{ font-size: 20px; cursor:default; font-weight: bold; background-color: #063c72d8; }
 .page-nav ul li:not(:nth-child(1)) a:hover { background-color: rgba(255,255,255,.4); }
-
 
 
 /*-----------------------------------
@@ -332,14 +332,14 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 8. Footer 
 -------------------------------------*/
 
-.footer { background-color: #181616; padding: 30px 0; color: #979393; }
+.footer { background-color: #fff; padding: 20px 0; color: #333; }
 
 .footer-widget li { float: left; position: relative;}
 .footer-widget > ul li {float: left; position: relative; }
 .footer-widget li:not(:nth-child(4)) {margin-right: 1em;}
 .footer-widget li:not(:nth-child(1)) > a:before { position: absolute; left:-9px; top:8px; content: ""; width:1px; height:13px; background: #ccc;}
 .footer-title { margin-bottom: 40px; color: #fff; }
-.footer-widget li { margin-top: 10px; }
+.footer-widget li { margin-top: 5px; }
 .footer-widget li a { font-size: 14px; color: #979393;  letter-spacing: .75px; font-weight: 700; }
 .footer-widget li a:hover { color: #d6c4a0; }
 .footer-widget .form-control { height: 50px; color: #7e7e7e; background-color: #535353; border: 0px solid; border-radius: 2px; }
@@ -352,13 +352,22 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .footer-link:hover { color: #f7da3d; border-bottom: 1px solid #f7da3d; }
 
 /*-------------- tiny footer ------------*/
-.tiny-footer { background-color: #141212; padding-top: 10px; padding-bottom: 10px; font-size: 12px; color: #6e6b6b; text-align: center; }
+.tiny-footer { background-color: #eee; padding-top: 10px; padding-bottom: 10px; font-size: 12px; color: #6e6b6b; text-align: center; }
+.tiny-footer ul {display: flex; width: 70%;}
+.tiny-footer .footerSiteMap {width: 30%; font-size: 13px; font-weight:600;}
+.tiny-footer select { padding: 5px; border: 1px solid #cccccc; border-radius: 5px; color:#333;}
+.tiny-footer span {color:#333;}
+.tiny-footer ul li {width: 10%; padding: 5px; }
+.tiny-footer ul li:nth-child(2) {width: 13%;}
+.tiny-footer ul li a {font-size: 13px; font-weight:600;}
+.tiny-footer ul li a:hover {color:#2d1eff;}
+.tiny-footer .row {display:flex;}
 
 /*-----------------------------------
 9. Pages 
 -------------------------------------*/
 
-.subpage-title { text-align: left; font-size: 3em; margin-top: 30px; color: #000;}
+.subpage-title { text-align: left; font-size: 40px; font-weight: bold; margin-top: 30px; color: #000;}
 .subpage-cont {margin-bottom: 60px; position: relative;}
 
 
@@ -560,7 +569,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 /* Small Devices, Tablets */
 @media only screen and (max-width:768px) {
     .page-nav {display:none;}
-    .subpage-title {font-size: 2em; margin-top: 0px;}
+    .subpage-title {font-size: 1.8em; margin-top: 0px;}
     .page-nav {display:none;}
     .up-content { position: relative;}
     .cs-content {background: rgba(238, 238, 238, 0.8);}
