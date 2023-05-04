@@ -15,14 +15,15 @@
 .subpage-cont{margin-bottom: 50px; clear:both; overflow: hidden;}
 
 .form-group {overflow: hidden;}
-
+.form-group span {margin-right: 10px; width:auto;}
+.form-group .form-flex {display:flex; align-items: baseline; width:100%;}
+.form-group .form-title {width: 100%; margin: 0;}
 @media only screen and (max-width:990px) {
   .manager-box li:nth-child(1):after{
     left: 4%;
     top: 36%;
     width:7%;
   }
-  .manager-box{width: 50%;}
 }
 @media only screen and (max-width:768px) {
   .subpage-content{height:630px;}
@@ -32,9 +33,8 @@
     top: 38%;
   }
   @media only screen and (max-width:480px) {
-    .manager-box li:nth-child(1):after{
-      left: 7%;
-    }
+    .manager-box li:nth-child(1):after{left: 7%;}
     .manager-box:hover li:nth-child(1):after {width: 20%;}
+    
   }
 }
