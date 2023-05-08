@@ -3,8 +3,8 @@
 a{text-decoration: none;}
 /* 헤더 */
 header .header-wrap{max-width: 1200px; margin: 0 auto; padding: 0 2%; height: 55px;}
-header .logo{float: left;}
-header .logo img{width: 80%;}
+header .logo{float: left; width: 268px;}
+header .logo img{width: 100%;}
 header .nav{float: right; width: 70%; position: relative; top:10px;}
 header .nav > ul{overflow: hidden;}
 header .nav > ul > li{float: left; width: 16.6667%; line-height: 50px; text-align: center;}

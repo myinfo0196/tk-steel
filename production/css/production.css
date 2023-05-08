@@ -5,3 +5,27 @@
 
 img {width: 800px;}
 
+a{text-decoration: none;}
+
+.subpage-cont{display:flex;}
+.left{width: 35%; text-align-last: left;}
+.left .nav{width: 95%; margin: 5px; margin-top: 10px; border: 1px solid #000; box-sizing: border-box;}
+.bg_title{background-color: #f7f7f7;}
+.left .nav ul li{text-align: center; border-bottom: 1px solid #000; box-sizing: border-box; }
+.left .nav ul li a{padding: 10px 15px; display: inline-block; width: 100%; transition: 0.5s;}
+.left .nav ul li .submenu{height: auto; display: none; border-top:1px solid #000; background-color: #fff;}
+.left .nav ul li .submenu li {font-size: 16px; line-height: 1.8; padding:15px;}
+.left .nav ul li:last-child{border-bottom: 0;}
+
+.right {width: 65%;}
+.right ul li { display:none;}
+.right ul li.on {display:inline-block;}
+
+
+@media only screen and (max-width:480px) {
+
+    .subpage-cont {display:inline-block;}
+    .left{width: 100%; margin-bottom: 30px;}
+    .right{width: 100%;}
+
+}
