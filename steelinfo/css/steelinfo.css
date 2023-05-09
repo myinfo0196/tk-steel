@@ -12,7 +12,7 @@ hr {margin:0;}
 .steelinfo-sub {font-size: 25px; width: 100%;}
 .steelinfo-sub span {font-weight: bold; color:#333;}
 
-.info {margin-bottom: 30px; font-size:20px;}
+.info {margin-bottom: 30px; font-size:20px; line-height: 2;}
 .info-title {display:flex; align-items: center; background: #eee; padding:3%}
 .info-title:hover{background: #94a4b7; color:#fff; transition: 0.5s;}
 .info-title ul {width: 70%; }
