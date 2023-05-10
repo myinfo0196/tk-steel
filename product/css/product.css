@@ -10,8 +10,10 @@
 .part1 {overflow: hidden;}
 .part1 img {width:800px;}
 
-
+.part5 img {width:80%;}
 @media only screen and (max-width:700px) {
     
 .part2 li {font-size:12px; width:85%; margin:0 auto;}
+
+.part5 img {width:auto;}
 }
