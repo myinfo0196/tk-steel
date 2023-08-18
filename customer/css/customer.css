@@ -7,12 +7,14 @@
 .map_cont li:nth-child(3){margin-top:10px;}
 .manager-box { color:#333; text-align-last: left; border:1px solid #ccc; width: 30%; padding:40px 25px; margin-bottom:5%; font-size: 1em; line-height: 2;}
 .manager-box li:nth-child(1) {font-size: 2em; margin-bottom: 5%; font-weight: bold;}
-.manager-box li:nth-child(1):after {content:''; width:3%; height:1px; background: #333; position: absolute; left: 2.3%; top: 34%; }
+.manager-box:nth-child(1) li:nth-child(1):after {content:''; width:3%; height:1px; position: absolute; left: 2.3%; top: 34%; }
+.manager-box:nth-child(2) li:nth-child(1):after {content:''; width:3%; height:1px; position: absolute; left: 37.2%; top: 34%; }
 .manager-box:hover {background-color: #0a539cd8; color:#fff; transition: 0.3s;}
 .manager-box:hover li:nth-child(1):after {background: #fff; width:7%; transition: all 0.5s cubic-bezier(0.5, 0.5, 0.5, 1.5);}
 
 .cs_title{text-align: left;margin-bottom: 30px; font-size: 1.2em;}
-.subpage-cont{margin-bottom: 50px; clear:both; overflow: hidden;}
+.subpage-cont{margin-bottom: 50px; clear:both; overflow: hidden; display:flex;}
+.manager-box {margin-right: 5%;}
 
 .form-group {overflow: hidden;}
 .form-group span {margin-right: 10px; width:auto;}
@@ -33,8 +35,8 @@
     top: 38%;
   }
   @media only screen and (max-width:480px) {
-    .manager-box li:nth-child(1):after{left: 7%;}
+    .manager-box li:nth-child(1):after{display:none;}
     .manager-box:hover li:nth-child(1):after {width: 20%;}
-    
+    .subpage-cont {display:block;}
   }
 }
