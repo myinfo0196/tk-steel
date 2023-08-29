@@ -7,7 +7,7 @@
 .part2 li {font-size:20px;}
 .part2 > ul { margin: 25px 0 50px 0;}
 .part1-1, .part1-2 {width:44%; float: left; margin: 0 3%; }
-.part1 {overflow: hidden;}
+.part1 {overflow: hidden; padding: 5% 0;}
 .part1 img {width:800px;}
 
 .part5 img {width:80%;}
