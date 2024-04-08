@@ -86,37 +86,39 @@
         onsubmit="return validateForm()">
 
             <div class="form-group">
-              <div class="col-sm-6">
-                <div class="form-name form-flex"><span>업체명 : </span>
-                  <input type="text" class="form-control" name="업체명" id="b_name" placeholder="업체명을 입력하세요." required> 
+              <div class="form-sub">
+                <div class="col-sm-6">
+                  <div class="form-name form-flex"><span>업체명 : </span>
+                    <input type="text" class="form-control" name="업체명" id="b_name" placeholder="업체명을 입력하세요." required> 
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-tel form-flex"><span>연락처 : </span>
-                  <input type="text" class="form-control" name="연락처" id="tel" placeholder="연락처를 입력하세요." required>
+                <div class="col-sm-6">
+                  <div class="form-tel form-flex"><span>연락처 : </span>
+                    <input type="text" class="form-control" name="연락처" id="tel" placeholder="연락처를 입력하세요." required>
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-manager form-flex"><span>담당자 : </span>
-                  <input type="text" class="form-control" name="담당자" id="name" placeholder="담당자를 입력하세요." required>
+                <div class="col-sm-6">
+                  <div class="form-manager form-flex"><span>담당자 : </span>
+                    <input type="text" class="form-control" name="담당자" id="name" placeholder="담당자를 입력하세요." required>
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-email form-flex"><span>이메일 : </span>
-                  <input type="email" class="form-control" name="E-mail" id="email" placeholder="Email을 입력하세요." required>
+                <div class="col-sm-6">
+                  <div class="form-email form-flex"><span>이메일 : </span>
+                    <input type="email" class="form-control" name="E-mail" id="email" placeholder="Email을 입력하세요." required>
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-11">
-                <div class="form-title form-flex"><span>제&nbsp;&nbsp;&nbsp;&nbsp;목 : </span>
-                  <input type="subject" class="form-control" name="제  목" id="subject" placeholder="제목을 입력하세요." required>
+                <div class="col-sm-11">
+                  <div class="form-title form-flex"><span>제&nbsp;&nbsp;&nbsp;&nbsp;목 : </span>
+                    <input type="subject" class="form-control" name="제  목" id="subject" placeholder="제목을 입력하세요." required>
+                  </div>
+                  <div class="form-content form-flex"><span>내&nbsp;&nbsp;&nbsp;&nbsp;용 : </span>
+                    <textarea name="내  용" id="msg" class="form-control" cols="30" rows="8" placeholder="내용을 입력하세요." required></textarea>
+                  </div>
+                  
+                  <button type="submit" class="btn custom-btn" data-loading-text="Loading...">
+                    <i class="fa fa-paper-plane"></i>&nbsp;Send
+                  </button>
                 </div>
-                <div class="form-content form-flex"><span>내&nbsp;&nbsp;&nbsp;&nbsp;용 : </span>
-                  <textarea name="내  용" id="msg" class="form-control" cols="30" rows="8" placeholder="내용을 입력하세요." required></textarea>
-                </div>
-                
-                <button type="submit" class="btn custom-btn" data-loading-text="Loading...">
-                  <i class="fa fa-paper-plane"></i>&nbsp;Send
-                </button>
               </div>
             </div>      
           </form>

@@ -2,7 +2,7 @@
 @charset "UTF-8";
 
 .page-header { text-align: center; background: url(/customer/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
-.map_cont { margin-top: 30px; background:#eeeeee; padding: 10px 0;}
+.map_cont { margin-top: 30px; background:#eeeeee; padding: 20px 0;}
 .map_cont li {font-size:18px;}
 .map_cont li:nth-child(3){margin-top:10px;}
 .manager-box { color:#333; text-align-last: left; border:1px solid #ccc; width: 30%; padding:40px 25px; margin-bottom:5%; font-size: 1em; line-height: 2;}
@@ -13,7 +13,7 @@
 .manager-box:hover li:nth-child(1):after {background: #fff; width:7%; transition: all 0.5s cubic-bezier(0.5, 0.5, 0.5, 1.5);}
 
 .cs_title{text-align: left;margin-bottom: 30px; font-size: 1.2em;}
-.subpage-cont{margin-bottom: 50px; clear:both; overflow: hidden; display:flex;}
+.subpage-cont{margin-bottom: 50px; clear:both; overflow: hidden; display:inline-block; width:100%;}
 .manager-box {margin-right: 5%;}
 
 .form-group {overflow: hidden;}
