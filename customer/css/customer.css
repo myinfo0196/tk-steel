@@ -7,8 +7,8 @@
 .map_cont li:nth-child(3){margin-top:10px;}
 .manager-box { color:#333; text-align-last: left; border:1px solid #ccc; width: 30%; padding:40px 25px; margin-bottom:5%; font-size: 1em; line-height: 2;}
 .manager-box li:nth-child(1) {font-size: 2em; margin-bottom: 5%; font-weight: bold;}
-.manager-box:nth-child(1) li:nth-child(1):after {content:''; width:3%; height:1px; position: absolute; left: 2.3%; top: 34%; }
-.manager-box:nth-child(2) li:nth-child(1):after {content:''; width:3%; height:1px; position: absolute; left: 37.2%; top: 34%; }
+.manager-box:nth-child(1) li:nth-child(1):after {content:''; width:3%; height:2px; position: absolute; left: 2.3%; top: 17%; }
+.manager-box:nth-child(2) li:nth-child(1):after {content:''; width:3%; height:2px; position: absolute; left: 2.3%; bottom:32.5%; }
 .manager-box:hover {background-color: #0a539cd8; color:#fff; transition: 0.3s;}
 .manager-box:hover li:nth-child(1):after {background: #fff; width:7%; transition: all 0.5s cubic-bezier(0.5, 0.5, 0.5, 1.5);}
 
