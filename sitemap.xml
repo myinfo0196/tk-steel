@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
+<urlset 
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+  <!-- 메인페이지 -->
+  <url>
+    <loc>https://taekeuksteel.co.kr/</loc>
+    <lastmod>2025-11-24</lastmod>
+  </url>
 
-<url>
-  <loc>https://taekeuksteel.co.kr/</loc>
-  <lastmod>2023-04-26T04:02:33+00:00</lastmod>
-</url>
+  <!-- certificate 폴더 -->
+  <url><loc>https://taekeuksteel.co.kr/certificate/1.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/certificate/2.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/certificate/3.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/certificate/4.html</loc></url>
 
+  <!-- company 폴더 -->
+  <url><loc>https://taekeuksteel.co.kr/company/company1.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/company/company2.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/company/company3.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/company/company4.html</loc></url>
+
+  <!-- customer 폴더 -->
+  <url><loc>https://taekeuksteel.co.kr/customer/customer1.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/customer/customer2.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/customer/customer3.html</loc></url>
+
+  <!-- product 폴더 -->
+  <url><loc>https://taekeuksteel.co.kr/product/product1.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/product/product2.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/product/product3.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/product/product4.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/product/product5.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/product/product6.html</loc></url>
+
+  <!-- production 폴더 -->
+  <url><loc>https://taekeuksteel.co.kr/production/production1.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/production/production2.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/production/production3.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/production/production4.html</loc></url>
+
+  <!-- steelinfo 폴더 -->
+  <url><loc>https://taekeuksteel.co.kr/steelinfo/steelinfo1.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/steelinfo/steelinfo2.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/steelinfo/steelinfo3.html</loc></url>
 
 </urlset>
