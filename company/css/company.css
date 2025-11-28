@@ -4,7 +4,6 @@ a {text-decoration: none;}
 
 .page-header { text-align: center; background: url(/company/images/title.webp) no-repeat center; background-size: cover; margin: 0px; border: 0; }
 .ceo-content {text-align: left; margin-top:30px; margin-left: 20px; font-size: 1.2em; color: #222;}
-p { margin-top: 5%; }
 .logo_ci { width: 350px; padding: 30px 0; }
 
 .ceo-title li:nth-child(2){animation-delay:0.2s;}
@@ -12,13 +11,14 @@ p { margin-top: 5%; }
 .ceo-title li:nth-child(4){animation-delay:0.6s;}
 .ceo-title li:nth-child(5){animation-delay:0.8s;}
 .ceo-title li:nth-child(6){animation-delay:1.0s;}
-.ceo-title{font-size:1.3vw; text-align: left; float: left; margin:6% 0 6% 10%; color:rgba(255,255,255,0.8); position:relative;}
+.ceo-title{font-size:1.3vw; text-align: left; float: left; margin:6% 0 6% 6%; color:rgba(255,255,255,0.9); position:relative;}
 .ceo-title b {font-size:2vw; color:#fff;}
 .subpage-content {width: 100%; overflow: hidden; position: relative; }
 .subpage-content img {position:absolute; width:100%; left: 0;}
-.ceo-content img {right: 0; bottom:5%; width: 30%; position: absolute;animation-delay:1.0s;}
+.ceo-content img {right: 0; bottom:3%; width: 38%; position: absolute;animation-delay:1.0s;}
 
-.ceo-content {animation-delay:0.5s;}
+.ceo-content {animation-delay:0.5s; margin-bottom: 4%; padding: 0% 0% 3% 0.5%;}
+.t_t1 {font-size:1.4em;}
 
 /* Extra Small Devices, Phones */
 
