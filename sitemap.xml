@@ -12,10 +12,10 @@
   </url>
 
   <!-- certificate 폴더 -->
-  <url><loc>https://taekeuksteel.co.kr/certificate/1.html</loc></url>
-  <url><loc>https://taekeuksteel.co.kr/certificate/2.html</loc></url>
-  <url><loc>https://taekeuksteel.co.kr/certificate/3.html</loc></url>
-  <url><loc>https://taekeuksteel.co.kr/certificate/4.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/certificate/certificate1.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/certificate/certificate2.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/certificate/certificate3.html</loc></url>
+  <url><loc>https://taekeuksteel.co.kr/certificate/certificate4.html</loc></url>
 
   <!-- company 폴더 -->
   <url><loc>https://taekeuksteel.co.kr/company/company1.html</loc></url>
